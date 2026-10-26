@@ -15,6 +15,12 @@ npm run build
 
 Initial wireframes are in [design/normal-state.svg](design/normal-state.svg) and [design/empty-state.svg](design/empty-state.svg). The final design retains the compact filter-above-grid layout; a details drawer and visible selected/hidden count were added to make keyboard workflows clearer.
 
+## Screenshots
+
+![Filtered orders grid](docs/screenshots/main-screen.png)
+
+![Empty filter result](docs/screenshots/empty-state.png)
+
 ## Implementation notes
 
 - `public/orders.json` is the original, unmodified 17 MB source file, fetched once by the browser. It is normalized once after loading, then kept immutable. This avoids a backend while keeping the data pipeline explicit.
