@@ -10,6 +10,7 @@
     "test:watch": "vitest",
     "lint": "eslint ."
   },
-  "dependencies": { "@vitejs/plugin-react": "latest", "vite": "latest", "typescript": "latest", "react": "latest", "react-dom": "latest" },
-  "devDependencies": { "vitest": "latest", "jsdom": "latest", "@types/react": "latest", "@types/react-dom": "latest", "eslint": "latest", "@eslint/js": "latest", "typescript-eslint": "latest" }
+  "dependencies": { "react": "latest", "react-dom": "latest" },
+  "devDependencies": { "@vitejs/plugin-react": "latest", "vite": "latest", "typescript": "latest", "vitest": "latest", "jsdom": "latest", "@types/react": "latest", "@types/react-dom": "latest", "eslint": "latest", "@eslint/js": "latest", "typescript-eslint": "latest" },
+  "engines": { "node": ">=24" }
 }
