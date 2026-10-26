@@ -1,0 +1,15 @@
+{
+  "name": "merkle-orders-explorer",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint ."
+  },
+  "dependencies": { "@vitejs/plugin-react": "latest", "vite": "latest", "typescript": "latest", "react": "latest", "react-dom": "latest" },
+  "devDependencies": { "vitest": "latest", "jsdom": "latest", "@types/react": "latest", "@types/react-dom": "latest", "eslint": "latest", "@eslint/js": "latest", "typescript-eslint": "latest" }
+}
